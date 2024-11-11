@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-11T11:26:18 IST" name="Suite" finished-at="2024-11-11T11:27:27 IST" duration-ms="68323">
+    <groups>
+      <group name="regression">
+        <method signature="TC__03_HealthandWellnessPage.click()[pri:0, instance:TestCases.TC__03_HealthandWellnessPage@6574a52c]" name="click" class="TestCases.TC__03_HealthandWellnessPage"/>
+        <method signature="TC__03_HealthandWellnessPage.clickAgainWithExcelData()[pri:0, instance:TestCases.TC__03_HealthandWellnessPage@6574a52c]" name="clickAgainWithExcelData" class="TestCases.TC__03_HealthandWellnessPage"/>
+        <method signature="TC__03_HealthandWellnessPage.clickOnceAgain()[pri:0, instance:TestCases.TC__03_HealthandWellnessPage@6574a52c]" name="clickOnceAgain" class="TestCases.TC__03_HealthandWellnessPage"/>
+        <method signature="TC__03_HealthandWellnessPage.validate_Thankyou()[pri:0, instance:TestCases.TC__03_HealthandWellnessPage@6574a52c]" name="validate_Thankyou" class="TestCases.TC__03_HealthandWellnessPage"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC__03_HealthandWellnessPage.click()[pri:0, instance:TestCases.TC__03_HealthandWellnessPage@6574a52c]" name="click" class="TestCases.TC__03_HealthandWellnessPage"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC__03_HealthandWellnessPage.click()[pri:0, instance:TestCases.TC__03_HealthandWellnessPage@6574a52c]" name="click" class="TestCases.TC__03_HealthandWellnessPage"/>
+        <method signature="TC__03_HealthandWellnessPage.clickAgainWithExcelData()[pri:0, instance:TestCases.TC__03_HealthandWellnessPage@6574a52c]" name="clickAgainWithExcelData" class="TestCases.TC__03_HealthandWellnessPage"/>
+        <method signature="TC__03_HealthandWellnessPage.clickOnceAgain()[pri:0, instance:TestCases.TC__03_HealthandWellnessPage@6574a52c]" name="clickOnceAgain" class="TestCases.TC__03_HealthandWellnessPage"/>
+        <method signature="TC__03_HealthandWellnessPage.validate_Thankyou()[pri:0, instance:TestCases.TC__03_HealthandWellnessPage@6574a52c]" name="validate_Thankyou" class="TestCases.TC__03_HealthandWellnessPage"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-11-11T11:26:18 IST" name="Test1" finished-at="2024-11-11T11:27:27 IST" duration-ms="68323">
+      <class name="TestCases.TC__03_HealthandWellnessPage">
+        <test-method is-config="true" signature="getDriver(java.lang.String)[pri:0, instance:TestCases.TC__03_HealthandWellnessPage@6574a52c]" started-at="2024-11-11T11:26:18 IST" name="getDriver" finished-at="2024-11-11T11:26:27 IST" duration-ms="8886" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+        <test-method signature="click()[pri:0, instance:TestCases.TC__03_HealthandWellnessPage@6574a52c]" started-at="2024-11-11T11:26:27 IST" name="click" finished-at="2024-11-11T11:27:01 IST" duration-ms="34076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click -->
+        <test-method signature="clickAgainWithExcelData()[pri:0, instance:TestCases.TC__03_HealthandWellnessPage@6574a52c]" started-at="2024-11-11T11:27:01 IST" name="clickAgainWithExcelData" finished-at="2024-11-11T11:27:10 IST" duration-ms="8725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAgainWithExcelData -->
+        <test-method signature="clickOnceAgain()[pri:0, instance:TestCases.TC__03_HealthandWellnessPage@6574a52c]" started-at="2024-11-11T11:27:10 IST" name="clickOnceAgain" finished-at="2024-11-11T11:27:25 IST" duration-ms="14909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnceAgain -->
+        <test-method signature="validate_Thankyou()[pri:0, instance:TestCases.TC__03_HealthandWellnessPage@6574a52c]" started-at="2024-11-11T11:27:25 IST" name="validate_Thankyou" finished-at="2024-11-11T11:27:25 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Thankyou -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.TC__03_HealthandWellnessPage@6574a52c]" started-at="2024-11-11T11:27:25 IST" name="teardown" finished-at="2024-11-11T11:27:27 IST" duration-ms="1246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.TC__03_HealthandWellnessPage -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

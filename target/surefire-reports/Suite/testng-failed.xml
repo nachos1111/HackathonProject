@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test1(failed)" verbose="0">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="TestCases.TEC_01">
+        <methods>
+          <include name="getDriver"/>
+          <include name="HospitalList"/>
+          <include name="locationsearch"/>
+          <include name="validationoftitle"/>
+          <include name="teardown"/>
+          <include name="searchforhospitals"/>
+        </methods>
+      </class> <!-- TestCases.TEC_01 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
